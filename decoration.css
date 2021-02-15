@@ -1,0 +1,585 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rajdhani', sans-serif;;
+}
+
+.navbar .navbar-brand{
+    font-family:'Rajdhani', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1.5px; 
+    padding: 0 25px 0 15px;
+}
+
+.navbar li{
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: large;
+}
+
+.btn-primary{
+    margin-right: 2%;
+}
+
+
+/* Quieries */ 
+@media screen and (max-width: 767px) {
+    .navbar .navbar-brand{
+        font-family:'Rajdhani', sans-serif;
+        font-weight: bolder;
+        letter-spacing: 1.5px; 
+        padding: 0 25px 0 15px;
+    }
+    
+    .navbar li{
+        font-weight: normal;
+        letter-spacing: 1px;
+        font-size: large;
+        text-align: center;
+        margin-bottom: 1%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .btn-primary{
+        float: right;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .navbar .navbar-brand{
+        font-family:'Rajdhani', sans-serif;
+        font-weight: bolder;
+        letter-spacing: 1.5px; 
+        padding: 0 25px 0 15px;
+    }
+    
+    .navbar li{
+        font-weight: normal;
+        letter-spacing: 1px;
+        font-size: larger;
+        text-align: center;
+        margin-bottom: 1.5%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .btn-primary{
+        float: right;
+    } 
+}
+
+
+
+
+
+
+
+
+.intro{
+    text-align: center;
+    margin:4% 0 6% 0;
+}
+
+.intro h1{
+    font-weight: bold;
+    font-size: 4.5rem;
+    letter-spacing: .5px;
+    margin-bottom: .5%;
+    margin-top: 2%;
+}
+
+.intro p{
+    font-weight: normal;
+    font-size: 1.5rem;
+} 
+
+.intro .avatar{
+    margin-top: 1%;
+    border-radius: 50%;
+    margin-bottom: 4%;
+}
+
+
+/* Quieries */ 
+@media screen and (max-width: 767px) {
+    .intro{
+        text-align: center;
+        margin:6% 0 10% 0;
+        width: 100%;
+    }
+    
+    .intro h1{
+        font-weight: bold;
+        font-size: 3rem;
+        letter-spacing: .5px;
+        margin-bottom: .5%;
+        width: 100%;
+    }
+    
+    .intro p{
+        font-weight: normal;
+        font-size: 1rem;
+    } 
+    
+    .intro .avatar{
+        margin-top: 5%;
+        border-radius: 50%;
+        margin-bottom: 10%;
+    }
+     
+    
+    .intro .quote{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+     .intro{
+        text-align: center;
+        margin:6% 0 10% 0;
+        width: 100%;
+    }
+    
+    .intro h1{
+        font-weight: bold;
+        font-size: 3.5rem;
+        letter-spacing: .5px;
+        margin-bottom: .5%;
+        width: 100%;
+    }
+    
+    .intro p{
+        font-weight: normal;
+        font-size: 1.5rem;
+    } 
+    
+    .intro .avatar{
+        margin-top: 5%;
+        border-radius: 50%;
+        margin-bottom: 8%;
+    }
+     
+    
+    .intro .quote{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+ .about{
+    padding: 25px 20px 10px 20px;
+    background-color:#009FFB;
+    color: white;
+    text-align: center;
+}
+
+.about h1{
+    font-weight: bold;
+    letter-spacing: .5px;
+    font-size: 3rem;
+    margin:1% 0 2% 0;
+}
+
+.about p{
+    font-size: 1.5rem;
+    letter-spacing: .5px;
+    padding: 20px 60px 0px 60px;
+}
+
+.second_p{
+    padding: 0;
+}
+
+.second_p, li{
+    font-size: 1.3rem;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+/* Quieries */ 
+@media screen and (max-width: 767px) {
+    .about{
+        background-color:#009FFB;
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .about h1{
+        font-weight: bold;
+        letter-spacing: .5px;
+        font-size: 3rem;
+        margin:5% 0 2% 0;
+    }
+    
+    .about p{
+        text-align: center;
+        font-size: 1rem;
+        letter-spacing: .5px;
+        width: 100%;
+        padding: 10px 0 10px 0;
+        margin: 0;
+    }
+    
+    .second_p{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .second_p, li{
+        font-size: 1rem;
+        text-align: center;
+        text-decoration: none;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    .about{
+        background-color:#009FFB;
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .about h1{
+        font-weight: bold;
+        letter-spacing: .5px;
+        font-size: 3rem;
+        margin:5% 0 2% 0;
+    }
+    
+    .about p{
+        text-align: center;
+        font-size: 1.5rem;
+        letter-spacing: .5px;
+        width: 100%;
+        padding: 10px 0 10px 0;
+        margin: 0;
+    }
+    
+    .second_p{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        font-size: 1.5rem;
+    }
+    
+    .second_p, li{
+        font-size: 1.5rem;
+        text-align: center;
+        text-decoration: none;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+.work{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.work .card{
+    padding-top: 20px;
+    align-items: center;
+    box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+    border-radius: 30px;
+}
+
+.card{
+    margin: -3% auto 3%;
+}
+
+.card h5{
+    font-size: 1.5rem;
+    color: #009FFB;
+    font-weight: bold;
+}
+
+.card p{
+    font-size: 1.2rem;
+}
+
+.card li{
+    text-decoration: none;
+    border: none;
+    font-size: 1.2rem;
+}
+
+
+/* Quieries */ 
+@media screen and (max-width: 767px) {
+
+    .work{
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    
+    .work .card{
+        padding-top: 20px;
+        align-items: center;
+        box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+        border-radius: 30px;
+    }
+    
+    .card{
+        margin: -10% auto 5%;
+    }
+    
+    .card h5{
+        font-size: 1.5rem;
+        color: #009FFB;
+        font-weight: bold;
+    }
+    
+    .card p{
+        font-size: 1.2rem;
+    }
+    
+    .card li{
+        text-decoration: none;
+        border: none;
+        font-size: 1.2rem;
+    }
+    
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    .work{
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    
+    .work .card{
+        padding-top: 20px;
+        align-items: center;
+        box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+        border-radius: 30px;
+    }
+    
+    .card{
+        margin: -4% auto 4%;
+    }
+    
+    .card h5{
+        font-size: 1.5rem;
+        color: #009FFB;
+        font-weight: bold;
+    }
+    
+    .card p{
+        font-size: 1.2rem;
+    }
+    
+    .card li{
+        text-decoration: none;
+        border: none;
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+.projects{
+    margin-top: 10%;
+    text-align: center;
+    align-items: left;
+    width: 100%;
+}
+
+#done_prj{
+    margin: 4% auto 4%;
+    box-shadow:0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8; 
+}
+
+#projects h1{
+    margin-bottom: .5%;
+    font-weight: bolder;
+    letter-spacing: .5px;
+    font-size: 3rem;
+}
+
+#done_prj h5{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+/* Quieries */ 
+@media screen and (max-width: 767px) {
+    
+.projects{
+    margin-top: 30%;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+#done_prj{
+    margin: 4% auto 4%;
+    box-shadow:0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8; 
+    padding-bottom: 50px;
+}
+
+#projects h1{
+    margin-bottom: 13%;
+    font-weight: bolder;
+    letter-spacing: .5px;
+    font-size: 3rem;
+}
+
+#projects h5{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#projects p{
+    font-size: 1.2rem;
+}
+
+#visit_btn{
+    margin-bottom: 5%;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    .projects{
+        margin-top: 20%;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    #done_prj{
+        margin: 4% auto 4%;
+        box-shadow:0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8; 
+        padding-bottom: 50px;
+    }
+    
+    #projects h1{
+        margin-bottom: 8%;
+        font-weight: bolder;
+        letter-spacing: .5px;
+        font-size: 3rem;
+    }
+    
+    #projects h5{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    #projects p{
+        font-size: 1.2rem;
+    }
+    
+    #visit_btn{
+        margin-bottom: 5%;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+.testimonials{
+    margin-top: 10%;
+    text-align: center;
+    align-items: center;
+}
+
+.testimonials h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.testimonials .card-group{
+    text-align: center;
+    align-items: center;
+}
+
+.card-group .card{
+    margin: 5%;
+    border: none;
+}
+
+#discription{
+    box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+    border-radius: 30px;
+}
+
+
+/* Quieries */ 
+@media screen and (max-width: 767px) {
+
+    .testimonials{
+        margin-top: 30%;
+        text-align: center;
+        align-items: center;
+        padding: 0 10px 0 10px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    .testimonials{
+        margin-top: 30%;
+        text-align: center;
+        align-items: center;
+        padding: 0 10px 0 10px;
+    }
+}
