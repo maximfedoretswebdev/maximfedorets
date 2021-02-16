@@ -595,6 +595,202 @@
 }
 
 
+
+
+
+
+
+
+
+.contactform{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contactform h1{
+    text-align: center;
+    font-size: 3rem;
+    margin: 4% 0 5% 0;
+    font-weight: bolder;
+    letter-spacing: .5rem;
+}
+
+form{
+    width: 100%;
+    align-items: center;
+}
+
+form input{
+    width: 50%;
+    display: block;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+    background-color: #E0e0e0;
+    align-items: center;
+    margin: 2% auto 4%;
+}
+
+textarea{
+    width: 50%;
+    display: block;
+    padding: 15px;
+    margin: 2% 0 5% 0;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+    background-color: #E0e0e0;
+    align-items: center;
+    margin: 0 auto;
+}
+
+form button{
+    margin: 2.5% 0 5% 0;
+}
+
+
+
+/* Quieries */ 
+@media screen and (max-width: 767px) {
+.contactform{
+    margin-top: 15%;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contactform h1{
+    text-align: center;
+    font-size: 3rem;
+    margin: 4% 0 5% 0;
+    font-weight: bolder;
+    letter-spacing: .5rem;
+}
+
+form{
+    margin-top: 15%;
+    width: 100%;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+form input{
+    width: 90%;
+    display: block;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+    background-color: #E0e0e0;
+    align-items: center;
+    margin: 2% auto 4%;
+}
+
+textarea{
+    width: 90%;
+    display: block;
+    padding: 15px;
+    margin: 2% 0 5% 0;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+    background-color: #E0e0e0;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#submit_btn{
+    font-size: 1.2rem;
+    align-items: center;
+    text-align: center;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    .contactform{
+        margin-top: 15%;
+        margin-bottom: 30%;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .contactform h1{
+        text-align: center;
+        font-size: 3rem;
+        margin: 4% 0 5% 0;
+        font-weight: bolder;
+        letter-spacing: .5rem;
+    }
+    
+    form{
+        margin-top: 8%;
+        width: 100%;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+    
+    form input{
+        width: 70%;
+        display: block;
+        padding: 15px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+        background-color: #E0e0e0;
+        align-items: center;
+        margin: 2% auto 4%;
+    }
+    
+    textarea{
+        width: 70%;
+        display: block;
+        padding: 15px;
+        margin: 2% 0 5% 0;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+        background-color: #E0e0e0;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    #submit_btn{
+        font-size: 1.5rem;
+        align-items: center;
+        text-align: center;
+        margin-right: 15%;
+        margin-top: 5%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
     margin-top: 3%;
 }
