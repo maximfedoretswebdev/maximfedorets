@@ -775,14 +775,56 @@ textarea{
 
 
 
+.or{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.or h4{
+    font-weight: bold;
+    margin-top: 3%;
+}
 
 
 
+/* Quieries */ 
+@media screen and (max-width: 767px) {
+
+    
+.or{
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin-top: 45%;
+}
+
+.or h4{
+    font-weight: bold;
+    margin-top: 3%;
+    font-size: 1.5rem;
+    margin-bottom: 6%;
+}
 
 
+}
 
 
+@media screen and (min-width: 768px) and (max-width: 1023px){
 
+    .or{
+        text-align: center;
+        background-color: white;
+        color: black;
+    }
+    
+    .or h4{
+        font-weight: bold;
+        margin-top: 3%;
+    }
+    
+
+}
 
 
 
