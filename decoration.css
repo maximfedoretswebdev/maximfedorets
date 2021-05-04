@@ -319,8 +319,17 @@
     border-radius: 10;
 }
 
+.card-title{
+    font-weight: bold;
+}
 
+.card-text{
+    font-weight: lighter;
+}
 
+#read_btn{
+    font-size: 1.2rem;
+}
 
 /* MEDIA QUERIES */
 @media screen and (max-width:767px){

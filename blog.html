@@ -16,9 +16,9 @@
   <body>
     
 <!-- Page Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-clear">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top" >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">M.F. | </a>
+          <a class="navbar-brand" href="index.html">M.F. | </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -34,10 +34,6 @@
                 <a class="nav-link" href="blog.html">Blog</a>
               </li>
             </ul>
-            <form class="d-flex" disabled>
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
           </div>
         </div>
       </nav>
@@ -52,7 +48,7 @@
               <div class="card-body" >
                 <h5 class="card-title">Lates News</h5>
                 <p class="card-text">News on any upcoming new events or anything special happening / happened.</p>
-                <button type="button" class="btn btn-dark" disabled>Read</button>
+                <button type="button" class="btn btn-dark" id="read_btn" disabled>Read</button>
               </div>
             </div>
             <div class="card" style="width: 19rem;">
@@ -60,7 +56,7 @@
               <div class="card-body">
                 <h5 class="card-title">New Photos</h5>
                 <p class="card-text">Any photography photos will be uploaded.</p>
-                <button type="button" class="btn btn-dark" disabled>Read</button>
+                <button type="button" class="btn btn-dark" id="read_btn" disabled>Read</button>
               </div>
             </div>
             <div class="card" style="width: 19rem;" hidden>
