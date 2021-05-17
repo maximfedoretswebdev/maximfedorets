@@ -57,6 +57,10 @@ nav .navbar{
         text-align: center;
     }
 
+    .navbar-toggler{
+        border: white;
+    }
+
     .greeting{
         font-weight: bold;
         margin-top: 10%;
