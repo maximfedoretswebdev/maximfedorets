@@ -399,3 +399,114 @@ footer{
     font-weight: lighter;
     background-color: #f5f5f7;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Blog Section Decoration */
+.BlogSec{
+    margin: 5% 0 8% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card{
+    text-align: center;
+    align-items: center;
+}
+
+.card .card-title{
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.card .card-text{
+    margin-top: 1.5rem;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:active:focus{
+    outline: 0;
+    border-style: none;
+    box-shadow:none;
+}
+
+.card .btn-secondary{
+    margin-top: 1.5rem;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------*/
+/* MEDIA QUERIES */
+@media screen and (max-width:767px){
+
+/* Blog Section Decoration */
+.BlogSec{
+    margin: 5% 0 8% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card{
+    margin: 3% auto;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 3.5%;
+}
+
+.card .card-title{
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.card .card-text{
+    margin-top: 1.5rem;
+}
+
+.card .btn-secondary{
+    margin-top: 1.5rem;
+}
+
+
+
+}
