@@ -531,3 +531,97 @@ footer{
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Photo PAGE */
+.photoSection{
+    display: block;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.column img {
+    padding: 15px;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------*/
+/* MEDIA QUERIES */
+@media screen and (max-width:767px){
+
+/*Photo PAGE */
+.photoSection{
+    display: block;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.column img {
+    padding: 15px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+mg, svg {
+    vertical-align: middle;
+}
+}
