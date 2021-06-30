@@ -1,356 +1,710 @@
 *{
-    margin: 0;
     padding: 0;
-    font-family: 'Supreme', sans-serif;;
+    margin: 0;
+    text-align: center;
+    overflow-x: hidden;
+    background-color: white;
     scroll-behavior: smooth;
 }
 
 .navbar-brand{
-    margin-right: 3%;
+    background-color: #000;
+    padding: 15px;}
+
+.navbar{
+    width: 100%;
+}
+#text{
+    color: white;
+}
+
+.navbar-nav{
+    margin: 0 auto;
+}
+
+                    /* MEDIA QUERIES */
+                    @media screen and (max-width: 767px){
+                        .navbar-nav{
+                            margin: 5% auto;
+                        }
+
+                        .btn-outline-secondary{
+                            width: 100%;
+                        }
+                    }
+
+
+
+
+
+/*WELCOME SECTION DECOR*/
+.welcomeSection{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 100%;
+margin-top: 3%;
+}
+
+.welcomeImage{
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+
+.welcomeImage img{
+    width: 100%;
+    object-fit: cover;
+    user-select: none;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.welcomeText{
+    margin-top: 10%;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    align-content: center;
+    color: #2d2d2d;
+    vertical-align: center;
+}
+
+.welcomeText h1{
+    margin-bottom: 5%;
     font-weight: bolder;
 }
 
-.nav-link{
-    font-weight: bold;
+.welcomeText h5{
+    font-weight: lighter;
+    letter-spacing: .2rem;
 }
 
-.welcome_section{
+.welcomeText button{
+    margin-top: 3%;
+    padding: 8px 10px 8px 10px;
+}
+
+/*Removing the outline on button when its active or clicked*/
+.btn:focus, .btn:active:focus, .btn.active:focus{
+    outline:none;
+    box-shadow:none;
+}
+
+                    /* MEDIA QUERIES */
+                    @media screen and (max-width: 767px){
+                        .welcomeSection{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+                            width: 100%;
+                            margin-top: 3%;
+                            }
+                            
+                            .welcomeImage{
+                                background-size: contain;
+                                margin: 0;
+                                padding: 0;
+                                max-width: 100%;
+                                width: 100%;
+                            }
+                            
+                            .welcomeImage img{
+                                width: 100%;
+                                object-fit: cover;
+                                user-select: none;
+                                vertical-align: middle;
+                                border-style: none;
+                            }
+                            
+                            .welcomeText{
+                                margin-top: 10%;
+                                width: 100%;
+                                padding: 20px;
+                                text-align: center;
+                                align-content: center;
+                                color: #2d2d2d;
+                                vertical-align: center;
+                            }
+                            
+                            .welcomeText h1{
+                                margin-bottom: 5%;
+                                font-weight: bolder;
+                            }
+                            
+                            .welcomeText h5{
+                                font-weight: lighter;
+                                letter-spacing: .2rem;
+                                text-align: left;
+                                text-indent: 10px;
+                            }
+                            
+                            .welcomeText button{
+                                margin-top: 5%;
+                                padding: 8px 10px 8px 10px;
+                            }
+                            
+                            /*Removing the outline on button when its active or clicked*/
+                            .btn:focus, .btn:active:focus, .btn.active:focus{
+                                outline:none;
+                                box-shadow:none;
+                            }
+                    }
+
+
+
+
+
+/* ABOUT SECTION */
+.aboutSection{
+    margin-top: 8%;
+}
+
+.aboutHeading{
+    float: left;
+    margin-left: 6%;
+}
+
+.aboutHeading p{
+    font-weight: lighter;
+    margin-left: 35%;
+}
+
+.aboutHeading h1{
+    font-weight: bolder;
+}
+
+.aboutText{
     width: 100%;
-    overflow: hidden;
-    padding: 50px 0 50px 0;
-    background: white;
+    text-align: center;
+    width: 80%;
+    margin: 5% auto;
+}
+
+.aboutText h5{
+    margin-top: 3.5%;
+    font-weight: lighter;
+}
+
+                    /* MEDIA QUERIES */
+                    @media screen and (max-width: 767px){
+                        /* ABOUT SECTION */
+                            .aboutSection{
+                                margin-top: 20%;
+                            }
+
+                            .aboutHeading{
+                                float: left;
+                                margin-left: 6%;
+                                margin-top: 5%;
+                            }
+
+                            .aboutHeading p{
+                                font-weight: lighter;
+                                margin: 0 0 -1% 0;
+                            }
+
+                            .aboutHeading h1{
+                                font-weight: bolder;
+                            }
+
+                            .aboutText{
+                                width: 100%;
+                                text-align: center;
+                                width: 80%;
+                                margin: 5% auto;
+                            }
+
+                            .aboutText h5{
+                                margin-top: 5%;
+                                font-weight: lighter;
+                            }
+                    }
+
+
+
+
+                    
+/* SKILLS SECTION */
+.skillsSection{
+    margin-top: 8%;
+}
+
+.skillsHeading{
+    float: left;
+    margin-left: 6%;
+}
+
+.skillsHeading p{
+    font-weight: lighter;
+}
+
+.skillsHeading h1{
+    font-weight: bolder;
+}
+
+.skillsLogos{
+    width: 100%;
+    text-align: center;
+    width: 100%;
+    margin: 5% auto;
+}
+
+.skillsLogos ul{
+    margin-top: 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    text-align: center;
-    align-items: center;
-    align-content: center;
 }
 
+                    /* MEDIA QUERIES */
+                    @media screen and (max-width: 767px){
+                            /* SKILLS SECTION */
+                            .skillsSection{
+                                margin-top: 20%;
+                            }
 
-.welcome_section h1{
-    font-weight: bolder;
+                            .skillsHeading{
+                                float: left;
+                                margin-left: 6%;
+                            }
+
+                            .skillsHeading p{
+                                font-weight: lighter;
+                                margin-bottom: -1%;
+                            }
+
+                            .skillsHeading h1{
+                                font-weight: bolder;
+                            }
+
+                            .skillsLogos{
+                                width: 100%;
+                                text-align: center;
+                                width: 100%;
+                                margin: 5% auto;
+                            }
+
+                            .skillsLogos ul{
+                                margin-top: 5%;
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-evenly;
+                            }
+                        }
+
+
+
+
+
+.projectSection{
+    margin-top: 8%;
 }
 
-.second_image{
-    display: none;
+.projectsHeading{
+    float: left;
+    margin-left: 6%;
 }
 
-.quote_section{
-    background-color: white;
-    padding: 35px;
-    text-align: center;
-    width: 50%;
-    margin: 0 auto;
-    align-items: center;
-    align-items: center;
-    border: 2px solid white;
-    
-}
-
-.quote h4{
-    margin-bottom: 2%;
-}
-
-.quote h4,p{
-    font-weight: bolder;
-}
-
-
-
-/* MEDIA QUERIES */
-@media screen and (max-width:767px){
-    .navbar-brand{
-        margin-right: 5%;
-        font-weight: bolder;
-    }
-    
-    .nav-link{
-        font-weight: bold;
-        text-align: center;
-    }
-
-    .navbar-toggler{
-        border: none;
-    }
-    
-    .welcome_section{
-        width: 100%;
-        overflow: hidden;
-        background: white;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        text-align: center;
-        align-items: center;
-        align-content: center;
-    }
-    
-    .welcome_image img{
-        display: none;
-    }
-
-    .welcome_section h1{
-        font-weight: bolder;
-        font-size: 2.5rem;
-    }
-
-    .second_image{
-        margin-top: 6%;
-        display: block;
-        width: 100%;
-        overflow: hidden;
-    }
-
-    .second_image img{
-        margin-top: 5%;
-        margin-bottom: 0;
-        width: 100%;
-        overflow: hidden;
-    }
-    
-    .quote_section{
-        background-color: white;
-        padding: 15px 15px 20px 15px;
-        text-align: center;
-        width: 90%;
-        margin: -5% auto;
-        align-items: center;
-        align-items: center;
-        border: 2px solid white;
-        
-    }
-    
-    .quote h4,p{
-        font-weight: bolder;
-    }
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.about_section{
-    position: absolute;
-    margin-top: -3%;
-    margin-bottom: 2%;
-    z-index: -1;
-    background-color: #1d1d1f;
-    padding: 60px 15px 15px 15px;
-    text-align: center;
-    color: white;
-
-}
-
-.about_txt h1{
-    font-size: 4rem;
-    margin-top: 2rem;
-}
-
-.about_txt p{
-    font-size: 1.2rem;
-    padding: 10px;
+.projectsHeading p{
     font-weight: lighter;
-    padding-bottom: 25px;
+    margin-left: 15%;
 }
 
-
-
-
-/* MEDIA QUERIES */
-@media screen and (max-width:767px){
-
-    .about_section{
-        width: 100%;
-        position: absolute;
-        margin-top: -10%;
-        z-index: -5;
-        background-color: #1d1d1f;
-        text-align: center;
-        color: white;
-    
-    }
-    
-    .about_txt h1{
-        font-size: 4rem;
-        margin-bottom: 6%;
-        margin-top: 5%;
-    }
-    
-    .about_txt p{
-        font-size: 1rem;
-        padding: 10px;
-        font-weight: lighter;
-    }
-
+.projectsHeading h1{
+    font-weight: bolder;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.photo_class{
-    padding: 15px;
-    margin-top: 20%;
-    margin-bottom: 5%;
-    background-color: white;
-    text-align: center;
-}
-
-
-/* MEDIA QUERIES */
-@media screen and (max-width:767px){
-
-.photo_class{
-    margin-top: 100%;
+.project{
+    margin-top: 3%;
     width: 100%;
-    overflow: hidden;
-
 }
 
-.photos img{
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.firstProject{
+    margin-top: 3%;
     width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* BLOG SECTION*/
-
-.blog_1 {
-    margin-top: 5%;
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
-}
-
-.card-deck{
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.card{
-    margin: 0 5% 3% 5%;
-    border: .5px solid black;
-    border-radius: 10;
+.projectPicture{
+    margin: 0;
+    padding: 0;
+    max-width: 50%;
+    flex: 0 0 50%;
 }
 
-.card-title{
-    font-weight: bold;
+.projectPicture img{
+    width: 100%;
+    object-fit: cover;
+    user-select: none;
+    vertical-align: middle;
+    border-style: none;
+    background-size: contain;
 }
 
-.card-text{
+.ProjectText{
+    width: 100%;
+    padding:0;
+    margin-top: 10%;
+    text-align: center;
+    align-content: center;
+    color: #2d2d2d;
+    vertical-align: center;
+}
+
+.ProjectText h6, h5{
+    width: 100%;
+    margin-left: 5%;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.ProjectText #visitButton{
+    margin: 5% 0 0 13%;
+    width: 15%;
+}
+
+
+.secondProject{
+    margin-top: 8%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+                    /* MEDIA QUERIES */
+                    @media screen and (max-width: 767px){
+                        .projectSection{
+                            margin-top: 20%;
+                        }
+                        
+                        .projectsHeading{
+                            float: left;
+                            margin-left: 6%;
+                        }
+                        
+                        .projectsHeading p{
+                            font-weight: lighter;
+                            margin: 0 0 -1% 0;
+                        }
+                        
+                        .projectsHeading h1{
+                            font-weight: bolder;
+                        }
+                        
+                        .project{
+                            margin-top: 3%;
+                            width: 100%;
+                        }
+                        
+                        
+                        .projects{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+                        }
+                        
+                        .firstProject{
+                            margin-top: 3%;
+                            width: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+                        }
+                        
+                        .projectPicture{
+                            margin: 0;
+                            padding: 0;
+                            max-width: 100%;
+                            flex: 0 0 100%;
+                        }
+                        
+                        .projectPicture img{
+                            width: 100%;
+                            object-fit: cover;
+                            user-select: none;
+                            vertical-align: middle;
+                            border-style: none;
+                            background-size: contain;
+                        }
+                        
+                        .ProjectText{
+                            width: 100%;
+                            padding:0;
+                            margin: 5% auto;
+                            text-align: center;
+                            align-content: center;
+                            color: #2d2d2d;
+                            vertical-align: center;
+                        }
+                        
+                        .ProjectText h6, h5{
+                            width: 100%;
+                            text-align: center;
+                            align-items: center;
+                            vertical-align: middle;
+                            margin: 0 auto;
+                        }
+                        
+                        .ProjectText #visitButton{
+                            margin: 5% auto;
+                            width: 25%;
+                        }
+                        
+                        
+                        .secondProject{
+                            margin-top: 10%;
+                            width: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+                        }
+                    }
+
+
+
+
+
+.contactSection{
+    margin-top: 10%;
+}
+
+.contactHeading{
+    float: left;
+    margin-left: 5%;
+}
+
+.contactHeading p{
     font-weight: lighter;
+    margin-left: 30%;
 }
 
-#read_btn{
-    font-size: 1.2rem;
+.contactHeading h1{
+    font-weight: bolder;
 }
 
-/* MEDIA QUERIES */
-@media screen and (max-width:767px){
-    .blog_1 {
-        margin-top: 5%;
-        display:flex;
-        flex-direction: column;
-        justify-content: space-between;
-        text-align: center;
-    }
+.contactForm{
+    width: 80%;
+    align-items: center;
+    text-align: left;
+    margin: 10% auto;
 
-    .card-deck{
-        display: inline-flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-    
-    .card{
-        margin: 3% auto;
-        border: .5px solid black;
-        border-radius: 10;
-    }
-    
+}
+
+form textarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+form input{
+    margin: 1% auto;
+    border: 1px solid black;
+    padding: 5px;
+    color: black;
+    width: 50%;
+    text-align: left;
+    border-radius: 5px;
+}
+
+input:focus, input:active, textarea:focus, textarea:active{
+    outline:none;
+    box-shadow:none;
+}
+
+form textarea{
+    margin: 1% auto;
+    border: 1px solid black;
+    padding: 5px;
+    color: black;
+    width: 50%;
+    border-radius: 5px;
+}
+
+form button{
+    margin-top: 2%;
+}
+
+                    /* MEDIA QUERIES */
+                    @media screen and (max-width: 767px){
+                        .contactSection{
+                            margin-top: 20%;
+                        }
+                        
+                        .contactHeading{
+                            float: left;
+                            margin-left: 5%;
+                        }
+                        
+                        .contactHeading p{
+                            font-weight: lighter;
+                            margin: 0 0 -1% 0;
+                        }
+                        
+                        .contactHeading h1{
+                            font-weight: bolder;
+                        }
+                        
+                        .contactForm{
+                            width: 90%;
+                            align-items: center;
+                            text-align: left;
+                            margin: 30% auto;
+                        
+                        }
+                        
+                        form textarea{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+                            width: 100%;
+                            text-align: left;
+                            margin: 0 auto;
+                        }
+                        
+                        form input{
+                            margin: 1% auto;
+                            border: 1px solid black;
+                            padding: 5px;
+                            color: black;
+                            width: 100%;
+                            text-align: left;
+                            border-radius: 5px;
+                        }
+                        
+                        input:focus, input:active, textarea:focus, textarea:active{
+                            outline:none;
+                            box-shadow:none;
+                        }
+                        
+                        form textarea{
+                            margin: 1% auto;
+                            border: 1px solid black;
+                            padding: 5px;
+                            color: black;
+                            width: 100%;
+                            border-radius: 5px;
+                        }
+                        
+                        form button{
+                            margin-top: 8%;
+                            width: 25%;
+                        }
+                        
+
+                    }
+
+
+
+footer{
+    text-align: center;
+}
+
+                    /* MEDIA QUERIES */
+                    @media screen and (max-width: 767px){
+
+                        footer{
+                            text-align: center;
+                            margin-top: -3%;
+                        }
+
+                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Log in SYSTEM */
+
+.login{
+    margin-top: 10%;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10%;
+
+}
+
+.login input{
+    width: 20%;
+    border: 1px solid black;
+    text-align: left;
+    padding: 5px;
+}
+
+.login button{
+    margin: 0 0 0 2%;
+}
+
+                    /* MEDIA QUERIES */
+                    @media screen and (max-width: 767px){
+                        .login{
+                            margin-top: 10%;
+                            text-align: center;
+                            align-items: center;
+                            margin-bottom: 10%;
+                        }
+                        
+                        .login input{
+                            width: 90%;
+                            border: 1px solid black;
+                            margin: 1.5%;
+                            text-align: left;
+                            padding: 5px;
+                            border-radius: 5px;
+                        }
+                        
+                        .login button{
+                            margin-top: 5%;
+                        }
+                    }
+
+
+
+
+
+
+
+
+#twoItems{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.modal-body{
+    font-weight: lighter;
 }
