@@ -15,6 +15,7 @@
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    
     <script src="javascriptfile.js"></script>
     <title>max_web.dev | Log in</title>
   </head>
@@ -40,8 +41,8 @@
 
   <section class="login">
     <div>
-        <input type="email" placeholder="Email" id="email">
-        <input type="password" placeholder="Password" id="password">
+        <input type="email" placeholder="Email" id="email" required>
+        <input type="password" placeholder="Password" id="password" required>
         <button class="btn btn-outline-dark" type="button" onclick="signIn()">Log in</button>
     </div>
   </section>
